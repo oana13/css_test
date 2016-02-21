@@ -2,6 +2,7 @@ header{
 	background-color: #53966A;
 	background-image: url("../images/flywheel.jpg");
 	padding:10px 5px;
+	 background-size: cover;
 }
 h1{
 	color: #FFFFFF;
