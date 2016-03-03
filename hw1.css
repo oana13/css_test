@@ -1,0 +1,121 @@
+header{
+	background-color: #53966A;
+	background-image: url("../images/flywheel.jpg");
+	padding:10px 5px;
+	 background-size: cover;
+}
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 180%;
+}
+h2{
+	color: #632963;
+	text-transform: uppercase;
+}
+body{
+	padding:10px 5px;
+	margin:1%;
+	font-size: 125%;
+}
+section{
+	display: inline-block;
+}
+img{
+	height:85%;
+	width: 85%;
+	padding:5px;
+	border: 2px solid;
+	margin:3%;
+}
+.right{
+	display:inline-block;
+	width: 75%;
+	float:right;
+	padding:5px;
+}
+.left{
+	display:inline-block;	
+	width: 22%;
+	float:left;
+	background: #78768C;
+	text-align: center;
+	height: 80%;
+}
+nav a{
+	display: inline-block;
+	height:25px;
+	width: 145px;
+	margin:3%;
+	border-radius: 10px;
+	padding:10px;
+	text-decoration: none;
+	text-align: center;
+	color: #FAF9FF;
+	background: rgba(5, 10, 49, 0.38);
+	font-size: 115%;
+}
+.active{
+	background: rgba(5, 10, 49, 1);
+}
+a{
+	color: #7B6969;
+	text-align: center;
+}
+
+table{
+	color: #F7F5F5;
+	border-spacing: 0;
+	border: 3px solid #78768C;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin: 2px auto 2px auto ;
+	-webkit-border-radius: 6px 6px 0 0 ;
+  	border-radius: 6px 6px 0 0;
+}
+
+table th{
+	margin: 2px;
+	text-align: center;
+	background: #B58B8B;
+	border: 3px solid #78768C;
+	border-bottom: 10px solid #78768C;
+	background: -webkit-linear-gradient(rgba(181,139,139,1), rgba(181,139,139,0)); 
+  	background: -o-linear-gradient(rgba(181,139,139,1), rgba(181,139,139,0)); 
+  	background: -moz-linear-gradient(rgba(181,139,139,1), rgba(181,139,139,0)); 
+  	background: linear-gradient(rgba(120,118,140,1), rgba(120,118,140,0));
+  	height:7vh;
+  	-webkit-border-radius: 6px 6px 0 0 ;
+  	border-radius: 6px 6px 0 0;
+  	text-shadow: 2px 2px #78768C;
+}
+table th:first-child{
+	text-align: left;
+}
+table td{
+	padding-bottom: 2px;
+	text-align: center;
+	background: #C1AFAF;
+	color: #5A565A;
+	line-height: 90%;
+	border: 2px solid #CCBABA;
+	-webkit-border-radius: 2px ;
+  	border-radius: 2px;
+  	text-shadow: 2px 2px #D4D8DA;
+}
+
+table td:first-child{
+	text-align: left;
+}
+
+table tr{
+	opacity: 0.8;
+	-webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+}
+
+table tr:hover{
+	opacity: 1;
+	height:8vh;
+}
